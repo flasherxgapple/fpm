@@ -14,7 +14,7 @@ mkdir -p "$BIN_DIR"
 # Downloading file
 echo "downloading fpm file"
 sleep 2
-curl -o "$BIN_DIR/fpm.sh" "$URL"
+wget -o "$BIN_DIR/fpm.sh" "$URL"
 
 # Make executable
 echo "make fpm executable"
