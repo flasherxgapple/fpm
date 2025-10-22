@@ -80,7 +80,7 @@ To add support for a new package manager:
 Or became a tester by using this package manager and report issues
 
 ## Contributor
-- @flasherxgapple Creator & Active developer
+- [@Flasherxgapple](https://github.com/Flasherxgapple) Creator & Active developer
 
 ## License
 
