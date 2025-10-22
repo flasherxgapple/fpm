@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL to download fpm.sh
-URL="https://github.com/flasherxgapple/fpm/fpm.sh"
+URL="https://github.com/flasherxgapple/fpm/main/fpm.sh"
 
 # Local bin directory
 BIN_DIR="$HOME/.local/bin"
