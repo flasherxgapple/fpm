@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# URL to download fpm.sh
-URL="https://raw.githubusercontent.com/flasherxgapple/fpm/main/fpm.sh"
-
 # Local bin directory
 BIN_DIR="$HOME/.local/bin"
 
@@ -14,7 +11,7 @@ mkdir -p "$BIN_DIR"
 # Downloading file
 echo "downloading fpm file"
 sleep 2
-wget -o "$BIN_DIR/fpm.sh" "$URL"
+curl -o "$BIN_DIR/fpm.sh" https://raw.githubusercontent.com/flasherxgapple/fpm/main/fpm.sh
 
 # Make executable
 echo "make fpm executable"
